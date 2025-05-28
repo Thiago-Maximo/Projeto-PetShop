@@ -1,30 +1,30 @@
-🐾 Projeto Site Petshop
-Este projeto tem como objetivo o desenvolvimento de um site informativo para um petshop. Nesta primeira etapa, o site será construído utilizando apenas HTML, CSS e Bootstrap, com foco em apresentar os serviços, produtos e informações da empresa de forma clara, atrativa e responsiva.
+# 🐾 Projeto Site Petshop
 
-🚀 Objetivos do Projeto
-Criar um site institucional e informativo;
+Este projeto tem como objetivo o desenvolvimento de um site informativo para um petshop. Nesta primeira etapa, o site será construído utilizando apenas **HTML**, **CSS** e **Bootstrap**, com foco em apresentar os serviços, produtos e informações da empresa de forma clara, atrativa e responsiva.
 
-Apresentar os serviços, produtos, contato e localização;
+## 🚀 Objetivos do Projeto
 
-Oferecer uma navegação simples, intuitiva e adaptável para dispositivos móveis;
+- Criar um site institucional e informativo;
+- Apresentar os serviços, produtos, contato e localização;
+- Oferecer uma navegação simples, intuitiva e adaptável para dispositivos móveis;
+- Utilizar **HTML**, **CSS** e **Bootstrap** como tecnologias principais.
 
-Utilizar HTML, CSS e Bootstrap como tecnologias principais.
+## 🔄 Próximas Etapas
 
-🔄 Próximas Etapas
-Após a conclusão da versão estática, o projeto passará por uma reformulação, onde será adotado o padrão MVC (Model-View-Controller), além da implementação de funcionalidades dinâmicas, como:
+Após a conclusão da versão estática, o projeto passará por uma reformulação, onde será adotado o padrão **MVC (Model-View-Controller)**, além da implementação de funcionalidades dinâmicas, como:
 
-Sistema de agendamento online;
+- 🗓️ Sistema de agendamento online;
+- 🔐 Área restrita para clientes e funcionários;
+- 🛠️ Cadastro e gerenciamento de serviços e horários.
 
-Área restrita para clientes e funcionários;
+## 🛠️ Tecnologias Utilizadas
 
-Cadastro e gerenciamento de serviços e horários.
+- HTML5
+- CSS3
+- Bootstrap 5
 
-🛠️ Tecnologias Utilizadas
-HTML5
+## 📌 Status do Projeto
 
-CSS3
+> 🔧 Em desenvolvimento — Primeira fase: site informativo.
 
-Bootstrap 5
-
-📌 Status do Projeto
-🔧 Em desenvolvimento — Primeira fase: site informativo.
+---
