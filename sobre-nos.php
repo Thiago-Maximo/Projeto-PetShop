@@ -17,6 +17,11 @@ include('topo.php')
     <title>Sobre Nós</title>
 </head>
 <body>
-    <h1 class=" informa">Pagina em Construção</h1>
+<h1 class="informa"> Pagina em Construção</h1>
+
+
+
+
+
 </body>
 </html>

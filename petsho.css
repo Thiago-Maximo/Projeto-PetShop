@@ -1,15 +1,4 @@
-/* ========================= */
-/* ======== PESQUISA ======= */
-/* ========================= */
 
-#Botao-Pesquisa {
-    background-color: beige;
-}
-
-#Lupa-Pesquisa {
-    position: relative;
-    left: -20px;
-}
 
 
 /* ========================= */
@@ -162,15 +151,17 @@ a.dropdown-item.show {
 
 /* Estilo do carrossel */
 .carousel {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 /* Imagens do carrossel */
 .carousel img {
     max-height: 400px;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
 }
+
 
 /* Responsividade do carrossel (dispositivos móveis) */
 @media (max-width: 768px) {
@@ -300,4 +291,50 @@ a.dropdown-item.show {
     align-items: center;     /* Alinha verticalmente */
     height: 100vh;  
     font-size: 50px;
+}
+
+/* Container do campo de busca */
+.pesquisa-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Input de pesquisa */
+.pesquisa-input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px 10px 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.pesquisa-input:focus {
+    border-color: #007BFF;
+}
+
+
+.icone-sacola{
+    position: relative;
+    left: 100px;
+}
+.icone-fav{
+    position: relative;
+    left: 30px;
+    top: 3px;
+}
+
+.icone-fav:hover{
+
+       width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
+    border: 3px solid #007bff; /* (Opcional) borda azul */
 }
