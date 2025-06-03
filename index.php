@@ -72,6 +72,7 @@ include('topo.php')
     </div>
 </section>
 
-
+    <!-- Rodapé -->
+    <?php include('rodape.php'); ?>
 </body>
 </html>

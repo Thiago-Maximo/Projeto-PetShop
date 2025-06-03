@@ -1,5 +1,5 @@
 <?php
-include('topo.php')
+include('topo.php');
 ?>
 
 <!DOCTYPE html>
@@ -25,9 +25,9 @@ include('topo.php')
         <div class="cards-list">
             <!-- Card 1 -->
             <div class="card-item">
-                <img src="img/banho-dog.jpg" alt="Banho e Tosa">
-                <h3>Banho e Tosa</h3>
-                <p class="Descricao">Serviço completo de banho e tosa para deixar seu pet cheiroso e feliz.</p>
+                <img src="img/banho-dog.jpg" alt="Banho">
+                <h3>Banho </h3>
+                <p class="Descricao">Serviço completo de banho para deixar seu pet cheiroso e feliz.</p>
             </div>
 
             <!-- Card 2 -->
@@ -52,5 +52,8 @@ include('topo.php')
             </div>
     </div> <!-- Fim da lista de cards -->
 </div>
+
+    <!-- Rodapé -->
+    <?php include('rodape.php'); ?>
 </body>
 </html>

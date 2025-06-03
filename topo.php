@@ -10,6 +10,13 @@
 
 <div class="pesquisa-container">
     <input type="text" class="pesquisa-input" placeholder="O Que Você Procura ?...">
+    <i class="bi bi-search lupa">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+    </i>
+
+
     <!---Icone de Sacola--->
     <i class="bi bi-bag icone-sacola">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">

@@ -117,6 +117,7 @@ a.dropdown-item.show {
 /* Efeito de hover no card */
 .card-item:hover {
     scale: 1.1;
+    cursor: pointer;
 }
 
 /* Imagem dentro do card */
@@ -293,6 +294,11 @@ a.dropdown-item.show {
     font-size: 50px;
 }
 
+
+/* ========================= */
+/* ==== Botão de Busca e Icones ==== */
+/* ========================= */
+
 /* Container do campo de busca */
 .pesquisa-container {
     display: flex;
@@ -320,21 +326,253 @@ a.dropdown-item.show {
 }
 
 
-.icone-sacola{
-    position: relative;
-    left: 100px;
+ .icone-sacola, .icone-fav {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Forma circular */
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-left: 10px;
 }
-.icone-fav{
-    position: relative;
-    left: 30px;
-    top: 3px;
+.icone-sacola:hover, .icone-fav:hover {
+    /* Sombra circular forte abaixo do ícone */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
 }
 
-.icone-fav:hover{
-
-       width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
-    border: 3px solid #007bff; /* (Opcional) borda azul */
+.lupa{
+    position: relative;
+    left: -35px;
 }
+
+/* ========================= */
+/* ===== ESTILOS PÁGINA SOBRE NÓS ===== */
+/* ========================= */
+
+/* Header da página Sobre Nós */
+.header-section {
+  background: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1470&q=80') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.header-section h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.header-section p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+
+/* Seção Sobre (História) */
+.sobre-nos .about {
+  padding: 3rem 0;
+}
+
+.sobre-nos .about-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  object-fit: cover;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+/* Texto da seção Sobre */
+.sobre-nos .about h2 {
+  margin-bottom: 1.5rem;
+}
+
+.sobre-nos .about p.lead {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.sobre-nos .about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Botão na seção Sobre */
+.sobre-nos .about a.btn-primary {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+}
+
+/* Seção da equipe */
+.sobre-nos .team {
+  padding: 3rem 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.sobre-nos .team h2 {
+  margin-bottom: 3rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #222;
+}
+
+/* Cartões da equipe */
+.sobre-nos .team .team-img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.sobre-nos .team .team-img:hover {
+  transform: scale(1.05);
+}
+
+.sobre-nos .team h5 {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.sobre-nos .team p.text-muted {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-nos .team p {
+  font-size: 0.95rem;
+  color: #555;
+  max-width: 270px;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+/* Footer estilo para sobre nós, caso queira diferenciar */
+.sobre-nos .footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
+
+/* ========================= */
+/* Fim dos estilos para a página Sobre Nós */
+/* ========================= */
+
+/* ========================= */
+/* Cards de Produtos */
+/* ========================= */
+
+.produtos-cards {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título da seção de cards */
+.produtos-cards h2 {
+    margin: 50px 0;
+}
+
+/* Lista de cards */
+.produtos-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+/* Estilo dos cards */
+.produtos-item {
+    width: 37%;
+    padding: 20px; /* Reduzido para dar mais espaço para o conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Alinhamento melhorado */
+    align-items: center;
+    gap: 15px; /* Reduzido para evitar sobreposição */
+    box-shadow: 1px 1px 30px #ccc;
+    border-radius: 7px;
+    transition: scale .7s;
+    flex: 1 1 250px;
+    height: 350px; /* Aumentado para acomodar o texto */
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Efeito de hover no card */
+.produtos-item:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+/* Imagem dentro do card */
+.produtos-item img {
+    width: 80%; /* Aumentado para melhor visualização */
+    border-radius: 7px;
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Título dentro do card */
+.produtos-item h3 {
+    font-size: 1.2em; /* Ajustado para melhor legibilidade */
+    margin: 0; /* Removido o margin negativo */
+    text-align: center; /* Centralizado */
+}
+
+/* Texto dentro do card */
+.produtos-item p {
+    font-size: 0.9em; /* Ajustado para melhor legibilidade */
+    width: 100%; /* Ajustado para ocupar toda a largura do card */
+    text-align: center; /* Centralizado */
+    margin: 0; /* Removido o margin */
+}
+
+/* Estilo para o valor */
+.valor {
+    font-size: 1em; /* Ajustado para melhor legibilidade */
+    font-weight: bold; /* Destacado */
+    margin: 0; /* Removido o margin */
+}
+
+/* Estilo para a descrição */
+.Descricao {
+    font-size: 0.8em; /* Ajustado para melhor legibilidade */
+    margin: 0; /* Removido o margin */
+}
+
+/* Estilo para o link */
+.produtos-item a {
+    position: relative;
+    bottom: 10px; /* Ajustado para melhor alinhamento */
+    text-decoration: none; /* Removido sublinhado */
+}
+
+/* ========================= */
+/* Fim Cards de Produtos */
+/* ========================= */
