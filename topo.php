@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="estilo_menu-compras.css">
+    <link rel="stylesheet" href="menu_compras.js">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script> 
     <link rel="stylesheet" href="petsho.css">
     <title>Document</title>
 </head>
@@ -18,11 +22,14 @@
 
 
     <!---Icone de Sacola--->
-    <i class="bi bi-bag icone-sacola">
+    <i class="bi bi-bag icone-sacola"  id="abrir-compras">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
             <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
         </svg>
     </i>
+    <div id="conteudo-carrinho"></div>
+
+
     <!----Icone de Coração--->
     <i class="bi bi-heart icone-fav">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -65,7 +72,7 @@
     </div>
 </nav>
 
-
+<script src="menu_compras.js"></script>
 <!-- Incluindo os scripts do Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7W6JHVB7WfIPFbSkvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -18,10 +18,12 @@ include('topo.php')
     <title>Produtos</title>
 </head>
 <body>
+  <hr class="container">
+
    <!-- Cabeçalho -->
   <header class="bg-light py-5 text-center">
     <div class="container">
-      <h1 class="display-4">Nossos Produtos</h1>
+      <h1 class="display-4">Produtos</h1>
       <p class="lead">Tudo que seu pet precisa, com amor e cuidado!</p>
     </div>
   </header>

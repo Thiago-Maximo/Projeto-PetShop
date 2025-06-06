@@ -17,11 +17,18 @@ include('topo.php');
 </head>
 <body>
 
+<hr class="container">
+   <!-- Cabeçalho -->
+  <header class="bg-light py-5 text-center">
+    <div class="container">
+      <h1 class="display-4">Serviços</h1>
+      <p class="lead">Tudo que seu pet precisa, com amor e cuidado!</p>
+    </div>
+  </header>
 <!-- Início da lista de cards -->
 <div class="cards">
     <div class="cards-list"> 
        <div class="cards">
-        <h2>Nossos Serviços</h2>
         <div class="cards-list">
             <!-- Card 1 -->
             <div class="card-item">

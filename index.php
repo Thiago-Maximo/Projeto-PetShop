@@ -17,14 +17,13 @@ include('topo.php')
     <title>Pet-Shop</title>
 </head>
 <body>
-<!-- Carrossel sem navegação por cliques e sem botões de controle -->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/Propaganda 3.png" class="d-block w-100" alt="...">
+<!-- Header Section -->
+  <header class="header-home">
+    <div class="container">
+      <h1>Seja-Bem Vindo</h1>
+      <p>Aqui Cuidamos Bem Do Seu Amiguinho!</p>
     </div>
-  </div>
-</div>
+  </header>
 
 <!-- Seção de informações após o Carrossel -->
 <section class="container my-5">
