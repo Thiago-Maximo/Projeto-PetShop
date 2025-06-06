@@ -60,7 +60,6 @@ include('topo.php');
     </div> <!-- Fim da lista de cards -->
 </div>
 
-    <!-- Rodapé -->
-    <?php include('rodape.php'); ?>
+
 </body>
 </html>

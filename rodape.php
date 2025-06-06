@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- footer.php -->
-<footer class="bg-primary text-white text-center py-3" style="width: 100%; min-height: 60px;">
+<footer class="bg-primary text-white text-center py-3" style="width: 100%;">
     <p class="mb-0">&copy; <?php echo date("Y"); ?> PetShop. Todos os direitos reservados.</p>
 </footer>
 

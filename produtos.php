@@ -14,7 +14,6 @@ include('topo.php')
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link type="image/png" sizes="16x16" rel="icon" href="PetShop/img/favicon.svg">
-    <link rel="stylesheet" href="petsho.css">
     <title>Produtos</title>
 </head>
 <body>
@@ -59,8 +58,6 @@ include('topo.php')
         </div>
     </div>
 </div>
-    <!-- Rodapé -->
-    <?php include('rodape.php'); ?>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

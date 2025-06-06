@@ -1,5 +1,9 @@
 
-/* Header da página index */
+
+
+/* ========================= */
+/* = Header da Pagina Home === */
+/* ========================= */
 .header-home {
   background-image: url('img/pagina-home.png');
   background-size: contain;
@@ -222,14 +226,6 @@ a.dropdown-item.show {
     object-fit: cover;
     margin-bottom: 10px;
 }
-
-
-/* ========================= */
-/* ==== DESCRIÇÃO TEXTO ==== */
-/* ========================= */
-
-
-
 
 /* ========================= */
 /* ===== RESPONSIVIDADE ==== */
@@ -597,30 +593,37 @@ a.dropdown-item.show {
 /* ========================= */
 
 
-/* Estilo básico para o menu de compras lateral */
-    #menu-compras {
-      position: fixed;
-      top: 0;
-      right: -400px;
-      width: 300px;
-      height: 100%;
-      background-color: white;
-      box-shadow: -2px 0 5px rgba(0,0,0,0.3);
-      transition: right 0.3s ease-in-out;
-      padding: 20px;
-      z-index: 999;
-    }
+/* ========================= */
+/* Começo Menu Lateral de Compras */
+/* ========================= */
+#menu-compras {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    z-index: 999;
+}
 
-    #menu-compras.ativo {
-      right: 0;
-    }
+#menu-compras.ativo {
+    right: 0;
+}
 
-    #fechar-menu {
-      background-color: #ff5050;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      float: right;
-      margin-bottom: 10px;
-    }
+#fechar-menu {
+    background-color: #ff5050;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+}
+
+    
+/* ========================= */
+/* Fim Menu Lateral de Compras */
+/* ========================= */
